@@ -1,0 +1,74 @@
+@import "../../../variables.global"
+@import "../../../mixins.global"
+
+.weekWrp
+  height: 100%
+  width: 74%
+  @include tablet-mini
+    width: 100%
+    @include wrapper(50%)
+  @include mobile
+    width: 100%
+    @include wrapper(80%)
+
+.week
+  height: 100%
+  width: 100%
+  position: relative
+  @include tablet-mini
+    @include offset(0,0,0,0)
+
+[data-theme='off']
+  .week
+
+.columns
+  width: 100%
+  height: 89%
+  top: 0
+  position: absolute
+  @include flex-center()
+  align-items: flex-end
+  padding: 0 12% 0 3%
+  @include mobile
+    padding: 0 20% 0 0%
+
+.footer
+  width: 100%
+  height: 11%
+  @include font(24,33,700)
+  @include flex-center()
+  padding: 0 12% 0 3%
+  @include mobile
+    padding: 0 20% 0 0%
+
+[data-theme='off']
+  .footer
+    color: $i-white
+
+.textDay
+  @include font(24,29,400)
+  flex: 1
+  @include mobile
+    @include font(18,27,400)
+
+[data-theme='off']
+  .textDay
+    color: $i-black
+
+.textDay:hover
+  color: $pink
+
+[data-theme='off']
+  .textDay:hover
+    color: $i-pink
+
+.active, .active:hover
+  color: $red
+
+[data-theme='off']
+  .active, .active:hover
+    color: $i-red
+
+.lines
+  height: 89%
+  @include flex-space(evenly, column-reverse)

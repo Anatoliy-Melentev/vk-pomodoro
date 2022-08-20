@@ -1,0 +1,261 @@
+/*!************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/BaseView/baseview.sass ***!
+  \************************************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/TimerPage/timerpage.sass ***!
+  \**************************************************************************************************************************************************************/
+.splitlayout {
+  display: grid !important;
+  grid-template-columns: 390px 16px 1fr; }
+
+.timerHeader * {
+  width: 100%;
+  display: inline-block; }
+
+/*!******************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/Modal/modal.sass ***!
+  \******************************************************************************************************************************************************/
+.modal-header span {
+  height: 23px;
+  margin-top: 5px; }
+
+/*!****************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/Info/info.sass ***!
+  \****************************************************************************************************************************************************/
+.info {
+  margin: 20px 20px 55px 10px; }
+
+/*!**************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/Statistic/statistic.sass ***!
+  \**************************************************************************************************************************************************************/
+.statisticslayout {
+  display: flex !important; }
+
+.cardBlock {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 16px;
+  margin-top: 16px;
+  height: 100%; }
+
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/Statistic/Week/LevelLine/levelline.sass ***!
+  \*****************************************************************************************************************************************************************************/
+.level {
+  flex: 1;
+  background-color: transparent;
+  box-sizing: content-box; }
+
+.line {
+  width: 88%;
+  height: 1px;
+  background-color: #333333;
+  opacity: 0.2; }
+  @media (max-width: 767px) {
+    .line {
+      width: 80%; } }
+
+.value {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  font-style: normal;
+  width: 10%;
+  float: right;
+  display: inline-block;
+  height: 100%;
+  margin-top: -8px; }
+  @media (max-width: 767px) {
+    .value {
+      width: 18%;
+      font-size: 10px;
+      line-height: 10px;
+      font-weight: 400;
+      font-style: normal; } }
+
+.level:last-child > .line {
+  background-color: transparent !important; }
+
+.level:last-child > .value {
+  color: transparent !important; }
+
+/*!***********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/Statistic/Week/Column/column.sass ***!
+  \***********************************************************************************************************************************************************************/
+.allcolumn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  height: 5px; }
+
+.column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 77%;
+  background-color: #c4c4c4;
+  min-height: 5px;
+  height: 100%; }
+  @media (max-width: 767px) {
+    .column {
+      width: 77%; } }
+
+.full {
+  background-color: #EA8979; }
+
+.full.active {
+  background-color: #DC3E22; }
+
+/*!**************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/Statistic/Week/week.sass ***!
+  \**************************************************************************************************************************************************************/
+.weekWrp {
+  height: 100%;
+  width: 74%; }
+  @media (max-width: 1079px) {
+    .weekWrp {
+      width: 100%;
+      position: relative;
+      height: 0;
+      border: none;
+      padding-top: 50%; } }
+  @media (max-width: 767px) {
+    .weekWrp {
+      width: 100%;
+      position: relative;
+      height: 0;
+      border: none;
+      padding-top: 80%; } }
+
+.week {
+  height: 100%;
+  width: 100%;
+  position: relative; }
+  @media (max-width: 1079px) {
+    .week {
+      position: absolute;
+      margin: auto;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px; } }
+
+.columns {
+  width: 100%;
+  height: 89%;
+  top: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 12% 0 3%; }
+  @media (max-width: 767px) {
+    .columns {
+      padding: 0 20% 0 0%; } }
+
+.footer {
+  width: 100%;
+  height: 11%;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 700;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 12% 0 3%; }
+  @media (max-width: 767px) {
+    .footer {
+      padding: 0 20% 0 0%; } }
+
+[data-theme='off'] .footer {
+  color: black; }
+
+.textDay {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+  font-style: normal;
+  flex: 1; }
+  @media (max-width: 767px) {
+    .textDay {
+      font-size: 18px;
+      line-height: 27px;
+      font-weight: 400;
+      font-style: normal; } }
+
+[data-theme='off'] .textDay {
+  color: #cccccc; }
+
+.textDay:hover {
+  color: #EA8979; }
+
+[data-theme='off'] .textDay:hover {
+  color: #157686; }
+
+.active, .active:hover {
+  color: #DC3E22; }
+
+[data-theme='off'] .active, [data-theme='off'] .active:hover {
+  color: #23c1dd; }
+
+.lines {
+  height: 89%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly; }
+
+/*!********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/Rubber/rubber.sass ***!
+  \********************************************************************************************************************************************************/
+.wrapper-rubber {
+  position: relative;
+  height: 0;
+  border: none; }
+
+.content-rubber {
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 100%; }
+
+/*!****************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/Card/card.sass ***!
+  \****************************************************************************************************************************************************/
+.card {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 8px; }
+
+.card > * {
+  height: 100%;
+  overflow: hidden;
+  display: grid;
+  background-color: transparent !important;
+  border: none !important; }
+
+.cardIcon {
+  transform: scale(2);
+  position: absolute;
+  bottom: 30px;
+  right: 30px; }
+
+.text {
+  vertical-align: bottom;
+  flex: auto 1;
+  display: flex;
+  font-size: 70px;
+  margin-left: 10px;
+  z-index: 10; }
+

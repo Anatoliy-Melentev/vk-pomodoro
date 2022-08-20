@@ -1,0 +1,22 @@
+@import "../../../../variables.global"
+@import "../../../../mixins.global"
+
+.allcolumn
+  @include flex-center(column)
+  width: 90%
+  height: 5px
+
+.column
+  @include flex-center(column)
+  width: 77%
+  background-color: $greyC4
+  min-height: 5px
+  height: 100%
+  @include mobile
+    width: 77%
+
+.full
+  background-color: $pink
+
+.full.active
+  background-color: $red
